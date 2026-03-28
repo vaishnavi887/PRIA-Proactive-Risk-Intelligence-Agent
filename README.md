@@ -1,48 +1,31 @@
 # 🚨 PRIA - Proactive Risk Intelligence Agent
 
 ## 🔍 Problem
-Traditional safety systems rely on manual triggers like panic buttons. In real-world situations, users may be unable to take action due to fear, shock, or physical restraint.
+Traditional safety systems rely on panic buttons. In critical situations, users may be unable to act.
 
 ## 💡 Solution
-PRIA is an autonomous, context-aware AI system that detects potential threats using multiple signals such as motion, audio, and location. It assigns a threat confidence score and triggers alerts without requiring user input.
+PRIA is a proactive AI system that detects threats using motion, audio, and location data and triggers alerts automatically.
 
-## 🧠 Key Features
-- Multi-agent inspired architecture
-- Context-aware threat detection
-- Threat confidence scoring
-- Explainable AI (transparent reasoning)
-- Proactive alert system
+## 🧠 Features
+- Multi-agent inspired system
+- Context-aware detection
+- Threat confidence score
+- Explainable alerts
 
-## ⚙️ System Flow
-User Inputs (Motion, Audio, Location)
-→ Context Analysis
-→ Threat Scoring
-→ Alert Generation
-→ Explanation Output
+## ⚙️ How It Works
+Input → AI Analysis → Threat Score → Alert
 
-## 🚀 Demo Scenarios
-- Normal situation → Safe
-- Noise + movement → Moderate risk
-- Scream + isolated location → High threat alert
+## 🚀 How to Run
+streamlit run app.py
 
-## 🛠️ Tech Stack
-- Python
-- Streamlit
-
-## ▶️ How to Run
-
-1. Install dependencies:
-2. Run the app:
-   
 ## 📊 Output
-- Threat Score (0–100%)
-- Risk Level (Safe / Moderate / High)
-- Explanation of detected risk factors
+- Threat Score
+- Risk Level
+- Explanation
 
 ## 📈 Impact
-PRIA enables proactive safety by detecting threats before user intervention, making it scalable for enterprise safety systems, campuses, and public environments.
+Helps detect threats early and improves safety systems.
 
 ## 🔮 Future Scope
-- Integration with IoT sensors and wearables
-- Real-time deployment
-- Enterprise SaaS safety platform
+- Real-time sensors
+- Enterprise deployment
